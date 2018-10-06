@@ -1,0 +1,43 @@
+textarea, select, input, button {
+    outline: none;
+}
+
+.login-wrapper {
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:rgb(101, 203, 250);
+}
+.login-logo {
+    width:200px;
+    height:200px;
+    margin:10px;
+    background-image: url(../assets/user-icon.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    filter:invert(100%);
+}
+
+input{
+    width:300px;
+    height:50px;
+    font-size:18px;
+    margin:10px;
+    padding:0px 5px;
+}
+
+.login-submit {
+    width: 150px;
+    height:60px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin:10px;
+    color: #fff;
+}

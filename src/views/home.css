@@ -1,0 +1,43 @@
+.home-header{
+    width:100vw;
+    height:50px;
+    /* border: 1px solid #555; */
+    background-color:rgb(101, 203, 250);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-header div {
+    margin:20px;
+    color:white;
+    letter-spacing: .1em;
+}
+
+.home-header a {
+    margin:20px;
+    text-decoration: none;
+    color:white;
+    letter-spacing: .1em;
+}
+
+.home-header a:hover{
+    color:black;
+}
+
+.home-body{
+    display:flex;
+    height: calc(100vh-40px);
+}
+.side-bar{
+    height: 100vh;
+    width:200px;
+    /* border: 1px solid #555; */
+    background-color:rgb(206, 198, 198);
+}
+.main-content{
+    height:100%;
+    width: calc(100vw - 200px);
+    /* border: 1px solid #555; */
+}
